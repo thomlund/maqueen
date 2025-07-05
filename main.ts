@@ -7,4 +7,5 @@ basic.pause(100)
 maqueenPlusV2.controlMotorStop(maqueenPlusV2.MyEnumMotor.LeftMotor)
 basic.forever(function () {
     matrixLidarDistance.getData()
+    basic.showNumber(maqueenPlusV2.readUltrasonic(DigitalPin.P13, DigitalPin.P14))
 })
