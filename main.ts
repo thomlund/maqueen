@@ -1,0 +1,10 @@
+music.play(music.stringPlayable("C5 C5 B C5 F A C5 C ", 120), music.PlaybackMode.UntilDone)
+maqueenPlusV2.I2CInit()
+maqueenPlusV2.setRgblLed(maqueenPlusV2.DirectionType.Left, maqueenPlusV2.CarLightColors.Red)
+maqueenPlusV2.setBrightness(100)
+maqueenPlusV2.controlMotor(maqueenPlusV2.MyEnumMotor.LeftMotor, maqueenPlusV2.MyEnumDir.Forward, 128)
+basic.pause(100)
+maqueenPlusV2.controlMotorStop(maqueenPlusV2.MyEnumMotor.LeftMotor)
+basic.forever(function () {
+	
+})
