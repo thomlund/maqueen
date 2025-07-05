@@ -6,5 +6,5 @@ maqueenPlusV2.controlMotor(maqueenPlusV2.MyEnumMotor.LeftMotor, maqueenPlusV2.My
 basic.pause(100)
 maqueenPlusV2.controlMotorStop(maqueenPlusV2.MyEnumMotor.LeftMotor)
 basic.forever(function () {
-	
+    matrixLidarDistance.getData()
 })
