@@ -12,4 +12,5 @@ basic.forever(function () {
         maqueenPlusV2.controlMotor(maqueenPlusV2.MyEnumMotor.LeftMotor, maqueenPlusV2.MyEnumDir.Backward, 80)
     }
     foreivet = 0
+    maqueenPlusV2.I2CInit()
 })
